@@ -15,6 +15,7 @@
 		83D960F028A2583A00D7825C /* NetherchatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D960EF28A2583A00D7825C /* NetherchatUITests.swift */; };
 		83D960F228A2583A00D7825C /* NetherchatUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D960F128A2583A00D7825C /* NetherchatUITestsLaunchTests.swift */; };
 		83D9610128A4C70B00D7825C /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D9610028A4C70B00D7825C /* LoginView.swift */; };
+		83D9610428AF005E00D7825C /* OnboardingContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D9610328AF005E00D7825C /* OnboardingContainerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		83D960EF28A2583A00D7825C /* NetherchatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetherchatUITests.swift; sourceTree = "<group>"; };
 		83D960F128A2583A00D7825C /* NetherchatUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetherchatUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		83D9610028A4C70B00D7825C /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		83D9610328AF005E00D7825C /* OnboardingContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingContainerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		83D960CD28A2583800D7825C /* Netherchat */ = {
 			isa = PBXGroup;
 			children = (
+				83D9610228AEFFC400D7825C /* Onboarding */,
 				83D960FE28A4C5A300D7825C /* Files */,
 				83D960FF28A4C63300D7825C /* Login */,
 				83D960CE28A2583800D7825C /* AppDelegate.swift */,
@@ -138,6 +141,14 @@
 				83D9610028A4C70B00D7825C /* LoginView.swift */,
 			);
 			path = Login;
+			sourceTree = "<group>";
+		};
+		83D9610228AEFFC400D7825C /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				83D9610328AF005E00D7825C /* OnboardingContainerViewController.swift */,
+			);
+			path = Onboarding;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +284,7 @@
 				83D9610128A4C70B00D7825C /* LoginView.swift in Sources */,
 				83D960D328A2583800D7825C /* LoginViewController.swift in Sources */,
 				83D960CF28A2583800D7825C /* AppDelegate.swift in Sources */,
+				83D9610428AF005E00D7825C /* OnboardingContainerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

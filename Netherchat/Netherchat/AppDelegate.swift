@@ -19,8 +19,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.makeKeyAndVisible()
         //window?.backgroundColor = UIColor(red:22.0, green:3.0, blue:87.0, alpha: 1.00)
         window?.backgroundColor = .systemIndigo
-        window?.rootViewController = LoginViewController()
-        
+        //window?.rootViewController = LoginViewController()
+        window?.rootViewController = OnboardingContainerViewController()
         return true
     }
 
