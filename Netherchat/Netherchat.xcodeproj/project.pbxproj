@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8380D93928AF1A1C0071AC5C /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8380D93828AF1A1C0071AC5C /* OnboardingViewController.swift */; };
 		83D960CF28A2583800D7825C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D960CE28A2583800D7825C /* AppDelegate.swift */; };
 		83D960D328A2583800D7825C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D960D228A2583800D7825C /* LoginViewController.swift */; };
 		83D960D828A2583900D7825C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83D960D728A2583900D7825C /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8380D93828AF1A1C0071AC5C /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 		83D960CB28A2583800D7825C /* Netherchat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Netherchat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83D960CE28A2583800D7825C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		83D960D228A2583800D7825C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -147,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				83D9610328AF005E00D7825C /* OnboardingContainerViewController.swift */,
+				8380D93828AF1A1C0071AC5C /* OnboardingViewController.swift */,
 			);
 			path = Onboarding;
 			sourceTree = "<group>";
@@ -283,6 +286,7 @@
 			files = (
 				83D9610128A4C70B00D7825C /* LoginView.swift in Sources */,
 				83D960D328A2583800D7825C /* LoginViewController.swift in Sources */,
+				8380D93928AF1A1C0071AC5C /* OnboardingViewController.swift in Sources */,
 				83D960CF28A2583800D7825C /* AppDelegate.swift in Sources */,
 				83D9610428AF005E00D7825C /* OnboardingContainerViewController.swift in Sources */,
 			);
