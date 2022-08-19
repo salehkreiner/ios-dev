@@ -20,8 +20,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         //window?.backgroundColor = UIColor(red:22.0, green:3.0, blue:87.0, alpha: 1.00)
         window?.backgroundColor = .systemIndigo
         //window?.rootViewController = LoginViewController()
-        //window?.rootViewController = OnboardingContainerViewController()
-        window?.rootViewController = OnboardingViewController()
+        window?.rootViewController = OnboardingContainerViewController()
+        //window?.rootViewController = OnboardingViewController(heroImageName: "delorean", titleText: "Netherchat is a cartoon maker and a messenging service combined in one app.")
         return true
     }
 
