@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		8380D93928AF1A1C0071AC5C /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8380D93828AF1A1C0071AC5C /* OnboardingViewController.swift */; };
+		8380D93B28B16C200071AC5C /* DummyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8380D93A28B16C200071AC5C /* DummyViewController.swift */; };
+		8380D93E28B1907A0071AC5C /* LocalState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8380D93D28B1907A0071AC5C /* LocalState.swift */; };
 		83D960CF28A2583800D7825C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D960CE28A2583800D7825C /* AppDelegate.swift */; };
 		83D960D328A2583800D7825C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D960D228A2583800D7825C /* LoginViewController.swift */; };
 		83D960D828A2583900D7825C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83D960D728A2583900D7825C /* Assets.xcassets */; };
@@ -38,6 +40,8 @@
 
 /* Begin PBXFileReference section */
 		8380D93828AF1A1C0071AC5C /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		8380D93A28B16C200071AC5C /* DummyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyViewController.swift; sourceTree = "<group>"; };
+		8380D93D28B1907A0071AC5C /* LocalState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalState.swift; sourceTree = "<group>"; };
 		83D960CB28A2583800D7825C /* Netherchat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Netherchat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83D960CE28A2583800D7825C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		83D960D228A2583800D7825C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -78,6 +82,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8380D93C28B190530071AC5C /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8380D93D28B1907A0071AC5C /* LocalState.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		83D960C228A2583800D7825C = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +113,7 @@
 		83D960CD28A2583800D7825C /* Netherchat */ = {
 			isa = PBXGroup;
 			children = (
+				8380D93C28B190530071AC5C /* Utils */,
 				83D9610228AEFFC400D7825C /* Onboarding */,
 				83D960FE28A4C5A300D7825C /* Files */,
 				83D960FF28A4C63300D7825C /* Login */,
@@ -141,6 +154,7 @@
 			children = (
 				83D960D228A2583800D7825C /* LoginViewController.swift */,
 				83D9610028A4C70B00D7825C /* LoginView.swift */,
+				8380D93A28B16C200071AC5C /* DummyViewController.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -285,6 +299,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				83D9610128A4C70B00D7825C /* LoginView.swift in Sources */,
+				8380D93E28B1907A0071AC5C /* LocalState.swift in Sources */,
+				8380D93B28B16C200071AC5C /* DummyViewController.swift in Sources */,
 				83D960D328A2583800D7825C /* LoginViewController.swift in Sources */,
 				8380D93928AF1A1C0071AC5C /* OnboardingViewController.swift in Sources */,
 				83D960CF28A2583800D7825C /* AppDelegate.swift in Sources */,
